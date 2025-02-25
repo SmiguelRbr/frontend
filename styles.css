@@ -1,0 +1,165 @@
+*{
+    margin: 0 auto ;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.topo{
+background-color: rgb(36, 37, 36);
+height: 65px;
+width: 100%;
+
+}
+
+.topo img {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+} 
+
+.links {
+position: absolute;
+top: 30px;
+padding-left: 10px;
+}
+
+.links a{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.links p{
+    color: antiquewhite;
+    font-size: 13px;
+}
+
+.links a:hover{
+   background-color: rgb(167, 167, 167);
+    
+}
+
+
+.carousel {
+    position: relative;
+    width: 100%; 
+    margin-top: 1px;
+    overflow: hidden; 
+    z-index: -1
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos básicos para o header e lista */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav{
+    position: relative;
+    right: -1600px;
+    top: -30px
+}
+
+/* Estilos para os quadros de informações */
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.info-box {
+    width: 45%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.info-box p strong {
+    font-weight: bold;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    .info-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    color: rgb(167, 167, 167);
+}
